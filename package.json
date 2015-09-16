@@ -1,0 +1,73 @@
+{
+  "name": "external",
+  "version": "1.0.0",
+  "description": "Fittings for BigPipe which allows you to use the BigPipe as a third party/external content provider.",
+  "main": "index.js",
+  "browser": "extern.js",
+  "scripts": {
+    "100%": "istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
+    "test": "node test/index.js",
+    "node": "mocha test/extern.test.js",
+    "watch": "mocha --watch test/extern.test.js",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/extern.test.js",
+    "compile": "mkdir -p dist && NODE_ENV=production browserify -s Extern -g envify -g uglifyify index.js -o dist/extern.min.js",
+    "prepublish": "npm run compile",
+    "dev": "mkdir -p dist && NODE_ENV=development browserify -s Extern -g envify index.js -o dist/extern.dev.js",
+    "static": "node test/static.js"
+  },
+  "keywords": [
+    "external",
+    "fittings",
+    "remote",
+    "loading",
+    "third",
+    "party",
+    "third-party",
+    "bigpipe"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "dependencies": {
+    "async-asset": "0.0.x",
+    "async-each": "0.1.x",
+    "demolish": "1.0.x",
+    "diagnostics": "1.0.x",
+    "emits": "3.0.x",
+    "fittings": "1.2.x",
+    "intl": "1.0.x",
+    "react": "0.13.x",
+    "react-intl": "1.2.x",
+    "recovery": "0.2.x",
+    "requests": "0.1.x",
+    "serve-static": "1.10.x",
+    "url-parse": "1.0.x"
+  },
+  "devDependencies": {
+    "access-control": "0.0.x",
+    "argh": "0.1.x",
+    "assume": "1.2.x",
+    "browserify": "10.2.x",
+    "envify": "3.4.x",
+    "istanbul": "0.3.x",
+    "mocha": "2.2.x",
+    "mochify": "2.10.x",
+    "mochify-istanbul": "2.3.x",
+    "node-jsx": "0.13.x",
+    "pre-commit": "1.0.x",
+    "uglifyify": "3.0.x"
+  },
+  "testling": {
+    "files": "test/*.browser.js",
+    "harness": "mocha-bdd",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ]
+  }
+}

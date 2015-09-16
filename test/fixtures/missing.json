@@ -1,0 +1,9 @@
+{
+  "name": "fixture",
+  "details": {
+    "js": ["/fixtures/empty.js"],
+    "css": ["/fixtures/what.css"]
+  },
+  "template": ""
+}
+\u1337

@@ -1,0 +1,8 @@
+{
+  "_id": "{fittings:id}",
+  "name": "{fittings:name}",
+  "details": {fittings~data},
+  "state": {fittings@state},
+  "template": {fittings~template}
+}
+\u1337
