@@ -50,7 +50,7 @@ examples in documentation we assume that you have an `Extern` global. If you use
 the `dist` build you can skip the following example:
 
 ```js
-var Extern = require('extern');
+var Extern = require('external');
 ```
 
 ### Building
