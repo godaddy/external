@@ -35,12 +35,12 @@
     "emits": "3.0.x",
     "fittings": "1.2.x",
     "intl": "1.0.x",
-    "react": "0.13.x",
-    "react-intl": "1.2.x",
+    "react": "0.14.0",
+    "react-intl": "2.0.0",
     "recovery": "0.2.x",
     "requests": "0.1.x",
-    "serve-static": "1.10.x",
-    "url-parse": "1.0.x"
+    "serve-static": "1.13.0",
+    "url-parse": "1.4.3"
   },
   "devDependencies": {
     "access-control": "0.0.x",
