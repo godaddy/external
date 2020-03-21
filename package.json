@@ -39,7 +39,7 @@
     "react-intl": "1.2.x",
     "recovery": "0.2.x",
     "requests": "0.1.x",
-    "serve-static": "1.10.x",
+    "serve-static": "1.14.1",
     "url-parse": "1.4.x"
   },
   "devDependencies": {
