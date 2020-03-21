@@ -38,7 +38,7 @@
     "react": "0.13.x",
     "react-intl": "1.2.x",
     "recovery": "0.2.x",
-    "requests": "0.1.x",
+    "requests": "0.3.0",
     "serve-static": "1.10.x",
     "url-parse": "1.4.x"
   },
