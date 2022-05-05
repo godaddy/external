@@ -36,7 +36,7 @@
     "fittings": "1.2.x",
     "intl": "1.0.x",
     "react": "0.13.x",
-    "react-intl": "1.2.x",
+    "react-intl": "2.0.0",
     "recovery": "0.2.x",
     "requests": "0.1.x",
     "serve-static": "1.10.x",
