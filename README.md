@@ -1,3 +1,6 @@
+> [!WARNING]
+> **This library is deprecated, retired and no longer undevelopment.**
+
 # external
 
 External is a dual purpose library. It ships with a client-side framework renders
